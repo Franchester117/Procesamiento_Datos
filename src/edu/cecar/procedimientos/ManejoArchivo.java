@@ -11,7 +11,9 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
-public class ManejoArchivo {        
+public class ManejoArchivo {    
+
+    
     private static final String PATH_RECURSOS = System.getProperty("user.dir").concat("/resources/"); //Obtiene la dirección del proyecto y de los archivos csv    
     private static final File  carpeta = new File(PATH_RECURSOS); //Se crea un directorio con la ruta     
     private static final File[] lista_archivos = carpeta.listFiles(); //Se listan los archivos del directorio
