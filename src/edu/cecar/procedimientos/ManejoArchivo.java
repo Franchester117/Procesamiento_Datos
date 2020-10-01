@@ -32,7 +32,7 @@ public class ManejoArchivo {
     private static int numero_nucleos; //Cantidad de núcleos.
     
     /**
-     * Calculos de los importes.
+     * Importe total.
      * @return 
     **/
     @SuppressWarnings("empty-statement")
@@ -64,7 +64,7 @@ public class ManejoArchivo {
     }
     
     /**
-     * Calcular importe por año.
+     * Importe por año.
     **/
     @SuppressWarnings("empty-statement")
     public static void obtener_importe_ano(){       
@@ -102,7 +102,7 @@ public class ManejoArchivo {
     }
     
     /**
-     * Calcular importe por año y mes.
+     * Importe por año y mes.
     **/
     @SuppressWarnings("empty-statement")
     public static void obtener_importe_ano_mes(){
@@ -140,7 +140,7 @@ public class ManejoArchivo {
     }
     
     /**
-     * Calcular importe por año y mes.
+     * Importe por año y mes.
     **/
     @SuppressWarnings("empty-statement")
     public static void obtener_importe_ano_trim(){
